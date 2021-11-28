@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "BHACK v1n1v131r4",
+  "description": "this extension is a PoC for BHack 2021",
+  "version": "1.11",
+  "content_security_policy": "script-src 'self' 'unsafe-eval' 'unsafe-inline' 'nonce-bhack' 'sha256-aPOSYuI8fxyT3cMNn4GLUh3cHbnhBclrGQNBMHK2cxA='",
+
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  
+  "background":{
+  "scripts": ["popup.js"]
+}
+}
